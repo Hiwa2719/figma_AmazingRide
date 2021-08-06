@@ -1,0 +1,118 @@
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #32343D;
+}
+
+.navbar-brand  {
+    color: #ffffff;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 47px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.navbar-nav {
+    display: flex;
+    margin-right: 10%;
+    margin-left: auto
+}
+
+
+.nav-link {
+    color: #ffffff;
+    opacity: 75%;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.main-body {
+    /*background: no-repeat url("../images/AmazingRide.png");*/
+    height: 100%;
+    position: relative;
+}
+
+.main-body img {
+    width: 100vw;
+    height: 100vh;
+    image-resolution: snap;
+}
+
+.main-body .content {
+    /*margin-left: 10%;*/
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+.content h1 {
+    margin: 0;
+
+    font-family: Saira SemiCondensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 98.7766px;
+    line-height: 155px;
+    text-transform: capitalize;
+    color: #040000;
+}
+
+
+.content p {
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29.4014px;
+    line-height: 34px;
+
+    /* identical to box height */
+
+    color: #5C5C5C;
+}
+
+
+.content button {
+    padding: 15px 15px;
+    background: #58CF10;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 10px;
+
+    position: static;
+    left: 8.39%;
+    right: 8.39%;
+    top: 29.82%;
+    bottom: 29.82%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 10px;
+}
